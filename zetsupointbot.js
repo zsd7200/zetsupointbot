@@ -518,8 +518,6 @@ client.on('message', message => {
 	{
 		// create a string with the md5 and a newline
 		let addStr = md5(message.content) + "\n";
-			
-		let append;
 		
 		if (validateTeam(message) === true)
 		{			
