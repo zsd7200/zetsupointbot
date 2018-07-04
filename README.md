@@ -10,6 +10,7 @@ Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambu
 - 25 for UU / RUBL
 - 10 for RU / NUBL
 - 5 for NU / PU / PUBL
+
 Tiers are based on [Smogon's Sun and Moon](https://www.smogon.com/dex/sm/Pokémon/) tier lists.
 
 Teams will be considered valid if they are 100 points or less, and follow certain clauses:
