@@ -1,5 +1,6 @@
 # ZetsuPointBot
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 Discord Bot for validation of Pokémon Teams.
 
 Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambuilder), DM the bot, and it will validate your team based on the ZetsuPoint™ system, which is as follows:
