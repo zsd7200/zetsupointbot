@@ -1,4 +1,5 @@
 # ZetsuPointBot
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 Discord Bot for validation of Pokémon Teams.
 
 Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambuilder), DM the bot, and it will validate your team based on the ZetsuPoint™ system, which is as follows:
@@ -25,3 +26,7 @@ Teams will be considered valid if they are 100 points or less, and follow certai
 The bot will generate an MD5 checksum and log that to an external file ("md5s.txt", which will be created if it does not exist), which can then be validated in a public channel by typing "pok valid \[md5]". The point of this is to keep teams anonymous before the ZetsuPoint league event.
 
 Requires [discord.js](https://www.npmjs.com/package/discord.js), [md5](https://www.npmjs.com/package/md5), and [create-if-not-exist](https://www.npmjs.com/package/create-if-not-exist) Node.js modules.
+
+  #### References
+  * [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome)
+  * [The Perfect Lil' Bot](https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3) by eslachance
