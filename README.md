@@ -3,7 +3,7 @@
 
 Discord Bot for validation of Pokémon Teams.
 
-Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambuilder), DM the bot, and it will validate your team based on the ZetsuPoint™ system, which is as follows:
+Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambuilder), DM the bot (or have the bot DM you first by typing "pok dm"), and it will validate your team based on the ZetsuPoint™ system, which is as follows:
 
 - 50 for Uber
 - 35 for OU / UUBL
