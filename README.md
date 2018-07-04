@@ -11,17 +11,12 @@ Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambu
 Tiers are based on [Smogon's Sun and Moon](https://www.smogon.com/dex/sm/Pokémon/) tier lists.
 
 Teams will be considered valid if they are 100 points or less, and follow certain clauses:
-- All matches will take place on Pokémon Showdown!.
 - Species Clause
     - A player cannot have two Pokémon with the same National Pokédex number on a team.
-- Sleep Clause
-    - If a player has already put a Pokémon on his/her opponent's side to sleep and it is still sleeping, another one can't be put to sleep.
 - Evasion Clause
     - A Pokémon may not have either Double Team or Minimize in its moveset.
 - OHKO Clause
     - A Pokémon may not have the moves Fissure, Guillotine, Horn Drill, or Sheer Cold in its moveset.
-- Endless Battle Clause
-    - Players cannot intentionally prevent an opponent from being able to end the game without forfeiting.
 - Mega-Rayquaza Clause
     - Rayquaza is not permitted to Mega Evolve.
 - Baton Pass limited to 1 Pokémon on a team
