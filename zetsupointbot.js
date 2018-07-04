@@ -9,7 +9,7 @@ const file = "md5s.txt";
 const client = new Discord.Client();
 
 // The token of your bot - https://discordapp.com/developers/applications/me
-const token = '';
+const token = '[your token here!]';
 
 // create bot prefix
 const prefix = 'pok ';
