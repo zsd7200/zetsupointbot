@@ -9,7 +9,7 @@ const file = "md5s.txt";
 const client = new Discord.Client();
 
 // The token of your bot - https://discordapp.com/developers/applications/me
-const token = '[your token here!]';
+const token = '[your token here]';
 
 // create bot prefix
 const prefix = 'pok ';
@@ -516,14 +516,24 @@ client.on('message', message => {
 	// if the message that was sent was in a DM, have the bot respond to it
 	if(message.channel.type === 'dm')
 	{
+		// create a string with the md5 and a newline
+		let addStr = md5(message.content) + "\n";
+			
+		let append;
+		
 		if (validateTeam(message) === true)
 		{			
-			// create a string with the md5 and a newline
-			let addStr = md5(message.content) + "\n";
-			
-			// add new md5 to file
-			fs.appendFile(file, addStr, (err) => {
+			// check to make sure md5 isn't already in md5s.txt
+			fs.readFile(file, 'utf8', (err, data) => {
 				if (err) throw err;
+				
+				if(data.includes(md5(message.content)) == false)
+				{
+					// add new md5 to file, if that md5 doesn't already exist
+					fs.appendFile(file, addStr, (err) => {
+						if (err) throw err;
+					});
+				}
 			});
 			
 			// return md5
