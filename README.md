@@ -25,7 +25,7 @@ Teams will be considered valid if they are 100 points or less, and follow certai
 - Baton Pass limited to 1 Pokémon on a team
 - Not all 6 slots have to be used, but players have to use at least 3 Pokémon
 
-The bot will generate an MD5 checksum and log that to an external file ("md5s.txt", which will be created if it does not exist), which can then be validated in a public channel by typing "pok valid \[md5]". The point of this is to keep teams anonymous before the ZetsuPoint league event.
+The bot will generate an MD5 checksum and log that to an external file ("md5s.txt", which will be created if it does not exist), which can then be validated in a public channel by typing "pok valid \[md5]". The point of this is to keep teams anonymous before the ZetsuPoint™ league event, but still be able to verify that teams are legal.
 
 Requires [discord.js](https://www.npmjs.com/package/discord.js), [md5](https://www.npmjs.com/package/md5), and [create-if-not-exist](https://www.npmjs.com/package/create-if-not-exist) Node.js modules.
 
