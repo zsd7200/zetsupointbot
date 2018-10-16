@@ -11,7 +11,7 @@ Export a team from [Pokémon Showdown!](https://play.Pokémonshowdown.com/teambu
 - 10 for RU / NUBL
 - 5 for NU / PU / PUBL
 
-Tiers are based on [Smogon's Sun and Moon](https://www.smogon.com/dex/sm/Pokémon/) tier lists.
+Tiers are based on [Smogon's Sun and Moon](https://www.smogon.com/dex/sm/pokemon/) singles tier lists.
 
 Teams will be considered valid if they are 100 points or less, and follow certain clauses:
 - Species Clause
@@ -27,7 +27,7 @@ Teams will be considered valid if they are 100 points or less, and follow certai
 
 The bot will generate an MD5 checksum and log that to an external file ("md5s.txt", which will be created if it does not exist), which can then be validated in a public channel by typing "pok valid \[md5]". The point of this is to keep teams anonymous before the ZetsuPoint™ league event, but still be able to verify that teams are legal.
 
-Requires [discord.js](https://www.npmjs.com/package/discord.js), [md5](https://www.npmjs.com/package/md5), and [create-if-not-exist](https://www.npmjs.com/package/create-if-not-exist) Node.js modules.
+Requires [discord.js](https://www.npmjs.com/package/discord.js), [md5](https://www.npmjs.com/package/md5), and [create-if-not-exist](https://www.npmjs.com/package/create-if-not-exist) Node.js modules to build.
 
   #### References
   * [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome)
